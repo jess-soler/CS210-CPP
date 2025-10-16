@@ -9,7 +9,7 @@ This is a simple C++ program that outputs "Hello World" to the console. It demon
 ## How to Compile and Run
 To compile and run this program:
 ```bash
-g++ main.cpp -o hello
+g++ -Wall -Wextra -std=c++17 main.cpp -o hello
 ./hello
 ```
 
